@@ -1,0 +1,124 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;900&family=Pacifico&display=swap');
+body{
+    background:url('https://wallpapertag.com/wallpaper/full/8/9/2/426797-widescreen-red-and-black-abstract-backgrounds-1920x1080-samsung-galaxy.jpg');
+
+}
+.sidebar{
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:1000px;
+    border-bottom: red 50px;
+    border-radius: 15px;
+    background: #292929;
+    
+    color: white;
+}
+.logo{
+    margin-top: 10px;
+    font-family: pacifico;
+    font-size: 15px;
+    color: #FFFFFFB2;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    /* font-weight: ; */
+}
+ul{
+    list-style: none;
+    font-size:20px;
+    font-weight:600;
+    margin-left: 0;
+}
+li{
+justify-content: space-between;
+margin-bottom: 30px;
+margin-left: 0;
+list-style-type: none;
+color: white;
+list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+     background: #F30050;
+     color: white;
+     height:50px;
+     /* text-align: center; */
+     width:250px;
+    
+     
+    
+}
+li:active{
+    background: #F30050;
+    color: white;
+    height:50px;
+    /* text-align: center; */
+    width:250px;
+}
+.icons{
+   
+    font-size: 30px;
+    /* justify-content: space-between; */
+    margin-left: 50px;
+    margin-top: 450px;
+
+}
+/* token component */
+.cards{
+    margin-left: 350px;
+   
+    margin-top: 20px;
+    /* background-size:cover; */
+}
+.card1{
+    background-color: #390554;
+    color: #F5F5F5;
+    margin-right:0;
+    width: 18rem;
+    height: auto;
+    margin: 0;
+}
+.tokens{
+    margin-top: 20px;
+}
+h3{
+    color: #F7F9F9;
+    margin-top: 70px;
+    
+}
+
+/* search component  */
+.rounded-search {
+    border-radius: 15px;
+    padding: 8px 15px;
+    border: 1px #ffffff;
+      
+    width: 435px;
+    height: 50px;
+    color: #F5F5F5;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    background:none;
+  }
+  .rounded-search:active{
+    border: blue;
+  }
+  
+  .connect-btn {
+    border-radius: 15px;
+    background:linear-gradient(#7C0F35
+    ,
+    #581266
+    );
+    width: 156px;
+    height: 52px;
+    border: none;
+    margin-right: 50px;
+    float: right;
+    text-align: center;
+  }
+ 
